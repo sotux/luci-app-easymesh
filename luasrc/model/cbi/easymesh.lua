@@ -34,5 +34,6 @@ enable.rmempty = false
 o = s:option(Value, "key", translate("Key"))
 o.default = "easymesh"
 o:depends("encryption", 1)
+o.password = true
 
 return m
